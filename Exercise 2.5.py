@@ -5,3 +5,4 @@ d = float((a*20*32*13.3+b*32*13.3+c*13.3)/1000)
 e = int(d)
 f = float(f'{((d-e)*1000):.2f}')
 print(f'The weight in modern units: {e} kilograms and {f} grams.')
+
