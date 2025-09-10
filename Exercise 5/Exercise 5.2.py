@@ -17,6 +17,7 @@ print(c[0:5])
 
 
 
+
 # b = []
 # while True:
 #     a = input('Enter the number: ')
