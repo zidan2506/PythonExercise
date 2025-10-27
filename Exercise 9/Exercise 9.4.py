@@ -1,5 +1,5 @@
-import random,sys
-sys.stdout.write('\x1b[2J')
+import random
+
 class Car:
     def __init__(self,regis_num,max_speed,cur_speed=0,trvl_dis=0):
         self.regis_num = regis_num
