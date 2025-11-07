@@ -14,9 +14,12 @@ while not cityname:
                 c_temp = k_temp - 273.15
                 cityname = True
                 print(f'Weather condition: {res_json['weather'][0]['main']}\nCurrent temperature: {c_temp:.1f}°C')
+                cityname = True
 
         else:
             print(f'{response.json()['message']}\nPlease enter the correct city name')
+            r = input('Enter the name of a municipality: ')
+                
         
         
             
