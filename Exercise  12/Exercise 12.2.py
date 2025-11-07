@@ -27,3 +27,5 @@ while not cityname:
     except requests.exceptions.RequestException as e:
         print("Request could not be completed")
         print(e.args)
+
+
